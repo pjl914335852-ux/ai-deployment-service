@@ -1,0 +1,65 @@
+{
+  "service": "Service Cat AI Deployment",
+  "version": "1.0",
+  "description": "Automated AI-powered deployment service for crypto trading bots and AI agents. Fully automated, no human intervention. On-chain payment accepted.",
+  "contact": "https://t.me/anluyy_bot",
+  "website": "https://github.com/pjl914335852-ux/ai-deployment-service",
+  "payment": {
+    "accepted": ["USDT", "USDC"],
+    "chains": ["ethereum", "bsc", "polygon", "arbitrum", "base", "optimism", "tron"],
+    "method": "on-chain transfer",
+    "auto_verification": true
+  },
+  "services": [
+    {
+      "id": "nofx_basic",
+      "name": "NOFX AI Trading OS - Basic",
+      "price": "80 USDT",
+      "description": "Automated crypto trading system. Docker deployment, SSL, 1 exchange (CEX/DEX), 1 AI model, basic trading strategy.",
+      "delivery": "24-48 hours",
+      "tags": ["trading", "crypto", "bot", "ai", "docker", "automated"]
+    },
+    {
+      "id": "nofx_full",
+      "name": "NOFX AI Trading OS - Full",
+      "price": "150 USDT",
+      "description": "Complete trading system. Multi-exchange, multi-AI (GPT/Claude/Local), advanced strategies, backtesting, risk control, portfolio management.",
+      "delivery": "24-48 hours",
+      "tags": ["trading", "crypto", "bot", "ai", "multi-exchange", "advanced"]
+    },
+    {
+      "id": "openclaw_agent",
+      "name": "OpenClaw AI Agent",
+      "price": "50 USDT",
+      "description": "Personal AI assistant deployed on your server. Supports Ubuntu/VPS/Mac. Telegram/Signal/Discord integration. Custom AI model configuration.",
+      "delivery": "24-48 hours",
+      "tags": ["ai-agent", "assistant", "deployment", "telegram", "discord"]
+    },
+    {
+      "id": "custom",
+      "name": "Custom Development",
+      "price": "30-500 USDT",
+      "description": "Custom development service. Scripts, bots, API integration, smart contract tools, monitoring systems. Quote on demand.",
+      "delivery": "varies",
+      "tags": ["custom", "development", "smart-contract", "api", "bot"]
+    }
+  ],
+  "how_to_order": {
+    "method": "telegram_bot",
+    "url": "https://t.me/anluyy_bot",
+    "steps": [
+      "Open @anluyy_bot on Telegram",
+      "Choose a service",
+      "Pay with USDT on any supported chain",
+      "Send transaction hash for auto-verification",
+      "AI deploys automatically"
+    ]
+  },
+  "ai_friendly": true,
+  "auto_deployment": true,
+  "supports_ai_clients": true,
+  "languages": ["en", "zh"],
+  "satisfaction_rate": "98%",
+  "clients_served": "50+",
+  "guarantee": "Free reconfiguration if not satisfied"
+}
